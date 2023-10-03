@@ -1,0 +1,28 @@
+{
+  "name": "challenge-reporting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init-db": "node fetch-db.js",
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "blocked-at": "^1.2.0",
+    "express": "^4.17.1",
+    "inspector-api": "^1.4.1",
+    "knex": "^0.21.21",
+    "memory-cache": "^0.2.0",
+    "request": "^2.88.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "get-port-sync": "^1.0.1",
+    "jsonist": "^3.0.1",
+    "standard": "^16.0.3",
+    "tape": "^5.3.1"
+  }
+}
